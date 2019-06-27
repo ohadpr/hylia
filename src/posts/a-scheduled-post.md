@@ -2,8 +2,6 @@
 title: A scheduled post
 date: 2022-06-18
 tags:
-- tags are good
-- test
 - demo-content
 - simple-post
 - blog
