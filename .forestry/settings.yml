@@ -14,10 +14,10 @@ sections:
   templates:
   - post
 - type: heading
-  label: Config
+  label: Globals
 - type: document
   path: src/_data/tokens.json
-  label: Design tokens
+  label: Theme settings
 upload_dir: src/images
 public_path: "/images"
 front_matter_path: ''
