@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: src/_data/tokens.json
+  label: Design tokens
+  match: "**/*"
 - type: directory
   path: src/posts
   label: Posts
@@ -21,8 +25,8 @@ build:
   preview_env:
   - ELEVENTY_ENV=staging
   preview_output_directory: src/dist
-  instant_preview_command: npm start
   install_dependencies_command: npm install
   preview_docker_image: node:10
   mount_path: "/srv"
   working_dir: "/srv/src"
+  instant_preview_command: npm start
