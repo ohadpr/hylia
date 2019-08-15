@@ -43,6 +43,7 @@ fields:
     config:
       required: false
       color_format: Hex
+    default: "#000000"
   - type: text
     name: primary-shade
     label: primary-shade
