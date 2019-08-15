@@ -1,6 +1,6 @@
 # A simple starter kit for Eleventy
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
+Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Forestry CMS](https://forestry.io/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
 
 Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
 
@@ -8,31 +8,33 @@ Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
 
 <img src="https://hankchizljaw.imgix.net/hylia-github.jpg?auto=format&q=60" width="550" />
 
+[![Import to Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=dirtyf/hylia&provider=github&branch=forestry&engine=other&preview=https://camo.githubusercontent.com/8bae59778d46d15e98e701d5b6f4d0cb3a2cb880/68747470733a2f2f68616e6b6368697a6c6a61772e696d6769782e6e65742f68796c69612d6769746875622e6a70673f6175746f3d666f726d617426713d3630)
+
 ## Features
 
 Hylia version 0.4.4 features:
 
-✍️ A pre-configured [Netlify CMS](https://www.netlifycms.org/) setup  
-🎨 Customisable design tokens to make it your own  
-🌍 Customisable global data and navigation  
-📂 Tags and tag archives  
-✅ Progressively enhanced, semantic and accessible  
-🎈 _Super_ lightweight front-end  
-🚰 Sass powered CSS system with utility class generator  
-⚙️ Service worker that caches pages so people can read your articles offline  
+✍️ A pre-configured [Forestry CMS](https://forestry.io/) setup
+🎨 Customisable design tokens to make it your own
+🌍 Customisable global data and navigation
+📂 Tags and tag archives
+✅ Progressively enhanced, semantic and accessible
+🎈 _Super_ lightweight front-end
+🚰 Sass powered CSS system with utility class generator
+⚙️ Service worker that caches pages so people can read your articles offline
 🚀 An RSS feed for your posts
 
 ## Roadmap
 
-💬 [Netlify Forms](https://www.netlify.com/docs/form-handling/) powered comments  
-💡 ~~Dark/Light mode toggle~~ [Added in 0.4.0](https://github.com/andybelldesign/hylia/releases/tag/0.4.0)  
-🗣 Webmentions  
-📖 Pagination  
-🐦 Web sharing API integration  
-🗒 Offline mode with links to cached pages  
-📄 Documentation site  
-💅 Proper Sass documentation  
-✍️ Proper CMS documentation  
+💬 [Netlify Forms](https://www.netlify.com/docs/form-handling/) powered comments
+💡 ~~Dark/Light mode toggle~~ [Added in 0.4.0](https://github.com/andybelldesign/hylia/releases/tag/0.4.0)
+🗣 Webmentions
+📖 Pagination
+🐦 Web sharing API integration
+🗒 Offline mode with links to cached pages
+📄 Documentation site
+💅 Proper Sass documentation
+✍️ Proper CMS documentation
 🖼 A facility for you to be able to add your logo / branding
 
 ---
@@ -181,7 +183,7 @@ Pass in the key of one of your breakpoints set in `$stalfos-config['breakpoints'
 
 ## CMS
 
-Hylia has [Netlify CMS](https://www.netlifycms.org/) pre-configured as standard. You can customise the configuration by editing [`src/admin/config.yml`](https://github.com/andybelldesign/hylia/blob/master/src/admin/config.yml).
+Hylia has [Forestry CMS](https://forestry.io/) pre-configured as standard. You can customise the configuration by editing [`.forestry/settings.yml`](https://github.com/DirtyF/hylia/blob/forestry/.forestry/settings.yml).
 
 ### Content that you can edit
 
@@ -204,4 +206,4 @@ The stuff that I need the most help with is:
 - [Webmentions](https://www.w3.org/TR/webmention/)
 - Performance
 
-[deploy-to-netlify]: https://app.netlify.com/start/deploy?repository=https://github.com/andybelldesign/hylia&stack=cms
+[deploy-to-netlify]: https://app.netlify.com/start/deploy?repository=https://github.com/dirtyf/hylia
