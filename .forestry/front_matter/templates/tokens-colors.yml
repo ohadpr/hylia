@@ -37,6 +37,12 @@ fields:
   - type: text
     name: primary
     label: primary
+  - name: primary-color
+    type: color
+    label: primary-color
+    config:
+      required: false
+      color_format: Hex
   - type: text
     name: primary-shade
     label: primary-shade
