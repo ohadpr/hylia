@@ -92,3 +92,5 @@ fields:
   - type: text
     name: serif
     label: serif
+pages:
+- src/_data/tokens.json
