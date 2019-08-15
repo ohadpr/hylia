@@ -1,0 +1,70 @@
+---
+label: Tokens - Colors
+hide_body: true
+fields:
+- type: field_group
+  name: size-scale
+  label: size-scale
+  fields:
+  - type: text
+    name: base
+    label: base
+  - type: text
+    name: '300'
+    label: '300'
+  - type: text
+    name: '500'
+    label: '500'
+  - type: text
+    name: '600'
+    label: '600'
+  - type: text
+    name: '700'
+    label: '700'
+  - type: text
+    name: '800'
+    label: '800'
+  - type: text
+    name: '900'
+    label: '900'
+  - type: text
+    name: max
+    label: max
+- type: field_group
+  name: colors
+  label: colors
+  fields:
+  - type: text
+    name: primary
+    label: primary
+  - type: text
+    name: primary-shade
+    label: primary-shade
+  - type: text
+    name: primary-glare
+    label: primary-glare
+  - type: text
+    name: highlight
+    label: highlight
+  - type: text
+    name: light
+    label: light
+  - type: text
+    name: mid
+    label: mid
+  - type: text
+    name: dark
+    label: dark
+  - type: text
+    name: slate
+    label: slate
+- type: field_group
+  name: fonts
+  label: fonts
+  fields:
+  - type: textarea
+    name: base
+    label: base
+  - type: text
+    name: serif
+    label: serif
