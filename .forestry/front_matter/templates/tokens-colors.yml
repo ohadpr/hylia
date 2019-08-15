@@ -34,37 +34,54 @@ fields:
   name: colors
   label: colors
   fields:
-  - type: text
+  - type: color
     name: primary
     label: primary
-  - name: primary-color
-    type: color
-    label: primary-color
     config:
-      required: false
       color_format: Hex
-    default: "#000000"
-  - type: text
+    default: "#173854"
+  - type: color
     name: primary-shade
     label: primary-shade
-  - type: text
+    config:
+      color_format: Hex
+    default: "#102538"
+  - type: color
     name: primary-glare
     label: primary-glare
-  - type: text
+    config:
+      color_format: Hex
+    default: "#22547c"
+  - type: color
     name: highlight
     label: highlight
-  - type: text
+    config:
+      color_format: Hex
+    default: "#fedb8b"
+  - type: color
     name: light
     label: light
-  - type: text
+    config:
+      color_format: Hex
+    default: "#ffffff"
+  - type: color
     name: mid
     label: mid
-  - type: text
+    config:
+      color_format: Hex
+    default: "#cccccc"
+  - type: color
     name: dark
     label: dark
-  - type: text
+    config:
+      color_format: Hex
+    default: "#333333"
+  - type: color
     name: slate
     label: slate
+    config:
+      color_format: Hex
+    default: "#404040"
 - type: field_group
   name: fonts
   label: fonts
