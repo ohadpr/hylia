@@ -4,10 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: src/_data/tokens.json
-  label: Design tokens
-  match: "**/*"
+- type: heading
+  label: Content
 - type: directory
   path: src/posts
   label: Posts
@@ -15,6 +13,12 @@ sections:
   match: "*.md"
   templates:
   - post
+- type: heading
+  label: Config
+- type: document
+  path: src/_data/tokens.json
+  label: Design tokens
+  match: "**/*"
 upload_dir: src/images
 public_path: "/images"
 front_matter_path: ''
